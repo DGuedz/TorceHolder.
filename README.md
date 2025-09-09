@@ -1,4 +1,4 @@
-# TorceHolder - O Cofre Digital do Torcedor do SPFC
+## TorceHolder - O Cofre Digital do Torcedor do SPFC
 
 ** TorceHolder** é um protótipo de alta fidelidade de uma plataforma DeFi e de gamificação, construída sobre a **Chiliz Chain**. O projeto foi desenvolvido para o **SPFC Hackathon** com o objetivo de criar um caso de uso sustentável e de alto engajamento para o Fan Token $SPFC, transformando-o de um ativo especulativo em uma ferramenta de fidelidade com benefícios reais.
 
