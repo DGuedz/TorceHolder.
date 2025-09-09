@@ -1994,7 +1994,7 @@ export default function TorceHolderApp() {
       case 'benefits': return <BenefitsScreen />;
       default: return <SplashScreen />;
     }
-  };
+
 
   return (
     <div className="max-w-md mx-auto bg-white shadow-2xl min-h-screen">
@@ -2002,4 +2002,4 @@ export default function TorceHolderApp() {
       {loading && <LoadingSpinner text="Conectando com sua carteira..." />}
     </div>
   );
-}
+  }
