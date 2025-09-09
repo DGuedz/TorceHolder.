@@ -1,6 +1,6 @@
-# 🏆 TorceHolder - O Cofre Digital do Torcedor do SPFC
+# TorceHolder - O Cofre Digital do Torcedor do SPFC
 
-**TorceHolder** é um protótipo de alta fidelidade de uma plataforma DeFi e de gamificação, construída sobre a **Chiliz Chain**. O projeto foi desenvolvido para o **SPFC Hackathon** com o objetivo de criar um caso de uso sustentável e de alto engajamento para o Fan Token $SPFC, transformando-o de um ativo especulativo em uma ferramenta de fidelidade com benefícios reais.
+** TorceHolder** é um protótipo de alta fidelidade de uma plataforma DeFi e de gamificação, construída sobre a **Chiliz Chain**. O projeto foi desenvolvido para o **SPFC Hackathon** com o objetivo de criar um caso de uso sustentável e de alto engajamento para o Fan Token $SPFC, transformando-o de um ativo especulativo em uma ferramenta de fidelidade com benefícios reais.
 
 Nossa solução permite que torcedores façam "stake" de seus tokens em um ambiente seguro para acumular pontos, subir de nível em um sistema de Tiers e resgatar recompensas tangíveis, como descontos em ingressos, produtos e experiências exclusivas.
 
@@ -19,7 +19,7 @@ Nossa solução permite que torcedores façam "stake" de seus tokens em um ambie
 
 ---
 
-## ✨ Visão Geral da Solução
+## Visão Geral da Solução
 
 O TorceHolder ataca uma oportunidade central no mercado de Fan Tokens: a falta de utilidade contínua. Nossa plataforma introduz um ciclo de engajamento virtuoso:
 
@@ -31,7 +31,7 @@ Este ciclo aumenta a demanda pelo token, diminui a volatilidade e fortalece o v�
 
 ---
 
-## 📱 Fluxo de Telas e Funcionalidades
+## Fluxo de Telas e Funcionalidades
 
 O protótipo implementa um fluxo de usuário completo com 5 telas principais:
 
@@ -45,7 +45,7 @@ O protótipo implementa um fluxo de usuário completo com 5 telas principais:
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 Para a construção deste protótipo, utilizamos tecnologias modernas e eficientes, focadas em uma experiência de usuário de alta qualidade.
 
@@ -56,7 +56,7 @@ Para a construção deste protótipo, utilizamos tecnologias modernas e eficient
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## Como Executar o Projeto Localmente
 
 Siga os passos abaixo para configurar e rodar o ambiente de desenvolvimento.
 
@@ -107,7 +107,7 @@ Plain Text
 
 ---
 
-## 🔮 Próximos Passos
+## Próximos Passos
 
 Este protótipo estabelece uma base sólida. Os próximos passos para transformar o TorceHolder em um produto de produção seriam:
 
