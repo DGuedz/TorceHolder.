@@ -1,117 +1,96 @@
-## TorceHolder - O Cofre Digital do Torcedor do SPFC
+<div align="center">
+  <img src="https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yZzh4VWh0RzVrbGdFN1JzTzh1d21oTllvWDAifQ" alt="TorceHolder Logo" width="120" />
+  <h1>TorceHolder</h1>
+  <p><strong>O Cofre Digital de Staking e Gamificação para o Fan Token $SPFC na Chiliz Chain.</strong></p>
 
-**TorceHolder** é um protótipo de alta fidelidade de uma plataforma DeFi e de gamificação, construída sobre a **Chiliz Chain**. O projeto foi desenvolvido para o **SPFC Hackathon** com o objetivo de criar um caso de uso sustentável e de alto engajamento para o Fan Token $SPFC, transformando-o de um ativo especulativo em uma ferramenta de fidelidade com benefícios reais.
+  <!-- Badges -->
+  <p>
+    <img src="https://img.shields.io/github/last-commit/DGuedz/TorceHolder?style=for-the-badge&logo=github&color=red" alt="Last Commit">
+    <img src="https://img.shields.io/github/languages/top/DGuedz/TorceHolder?style=for-the-badge&logo=javascript&color=yellow" alt="Top Language">
+    <img src="https://img.shields.io/badge/Chiliz_Chain-EVM_Compatible-red?style=for-the-badge&logo=ethereum" alt="Chiliz Chain">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+  </p>
+</div>
 
-Nossa solução permite que torcedores façam "stake" de seus tokens em um ambiente seguro para acumular pontos, subir de nível em um sistema de Tiers e resgatar recompensas tangíveis, como descontos em ingressos, produtos e experiências exclusivas.
+##  Visão Geral do Projeto
 
-**[Acesse a Demonstração Ao Vivo](https://torceholder.vercel.app )**
+O **TorceHolder** é uma plataforma Web3 desenvolvida para o **SPFC Hackathon**, com a missão de agregar utilidade real e engajamento ao Fan Token **$SPFC**. A solução transforma o token de um ativo puramente especulativo em uma ferramenta de fidelidade, permitindo que os torcedores do São Paulo FC façam "stake" de seus tokens para acumular pontos e resgatar benefícios exclusivos no mundo real.
 
----
-
-## Tabela de Conteúdos
-
-1.  [Visão Geral da Solução](#-visão-geral-da-solução)
-2.  [Fluxo de Telas e Funcionalidades](#-fluxo-de-telas-e-funcionalidades)
-3.  [Stack Tecnológico](#-stack-tecnológico)
-4.  [Como Executar o Projeto Localmente](#-como-executar-o-projeto-localmente)
-5.  [Estrutura do Projeto](#-estrutura-do-projeto)
-6.  [Próximos Passos](#-próximos-passos)
-
----
-
-## Visão Geral da Solução
-
-O TorceHolder ataca uma oportunidade central no mercado de Fan Tokens: a falta de utilidade contínua. Nossa plataforma introduz um ciclo de engajamento virtuoso:
-
-1.  **STAKE:** O torcedor deposita seus tokens $SPFC no cofre digital.
-2.  **EARN:** O valor em stake gera pontos passivamente, recompensando a posse a longo prazo.
-3.  **REDEEM:** Os pontos acumulados são trocados por benefícios reais, conectando o ativo digital ao mundo físico do clube.
-
-Este ciclo aumenta a demanda pelo token, diminui a volatilidade e fortalece o vínculo entre o clube e sua base de fãs.
+A plataforma visa fortalecer a comunidade, aumentar a demanda pelo token e criar um ecossistema sustentável em torno do clube e seus torcedores, tudo isso construído sobre a infraestrutura segura e focada em esportes da **Chiliz Chain**.
 
 ---
 
-## Fluxo de Telas e Funcionalidades
+##  Funcionalidades Implementadas (Protótipo )
 
-O protótipo implementa um fluxo de usuário completo com 5 telas principais:
-
-| Tela | Funcionalidade Chave | Status |
-| :--- | :--- | :--- |
-| **Splash Screen** | Apresentação inicial da marca e carregamento da aplicação. | ✅ Completo |
-| **Login Screen** | Ponto de entrada para o usuário conectar sua carteira digital (simulado). | ✅ Completo |
-| **Dashboard** | Visão geral da posição do usuário: saldo de tokens, total de pontos, tier e streak de engajamento. | ✅ Completo |
-| **Stake Screen** | Interface para o usuário depositar (fazer stake) de seus tokens, com seleção de período e cálculo de APY. | ✅ Completo |
-| **Benefits Screen** | Catálogo de recompensas onde o usuário pode visualizar como usar seus pontos acumulados. | ✅ Completo |
-
----
-
-## Stack Tecnológico
-
-Para a construção deste protótipo, utilizamos tecnologias modernas e eficientes, focadas em uma experiência de usuário de alta qualidade.
-
--   **Frontend:** **React 18** com uso extensivo de Hooks (`useState`, `useEffect`) para um gerenciamento de estado reativo e declarativo.
--   **Estilização:** **Tailwind CSS**, permitindo um design responsivo e customizável de forma rápida e consistente.
--   **Componentes de UI:** **Lucide-React** para uma iconografia limpa, leve e consistente em toda a aplicação.
--   **Simulação Web3:** A lógica de interação com a blockchain (conexão de carteira, transações) foi simulada com `async/await` e `setTimeout` para demonstrar o fluxo de usuário sem a necessidade de contratos complexos no escopo do hackathon.
+*   **Onboarding Web3:** Fluxo completo de autenticação simulada via conexão de carteira digital.
+*   **Dashboard do Torcedor:** Painel de controle para visualização de saldo de `$SPFC`, pontos acumulados, tier de fidelidade e streak de engajamento.
+*   **Cofre de Staking (Staking Vault):**
+    *   Depósito de tokens `$SPFC` em períodos de bloqueio flexíveis (30, 90, 180, 365 dias).
+    *   Sistema de **APY (Rendimento Anual Percentual)** progressivo que incentiva o compromisso de longo prazo.
+    *   Calculadora de recompensas em tempo real para prever os ganhos.
+*   **Marketplace de Benefícios:**
+    *   Catálogo de recompensas resgatáveis com os pontos acumulados.
+    *   Exemplos: Descontos no programa Sócio Torcedor, compra de ingressos, vouchers para a loja oficial e acesso a experiências VIP.
 
 ---
 
-## Como Executar o Projeto Localmente
+##  Arquitetura e Tecnologias
 
-Siga os passos abaixo para configurar e rodar o ambiente de desenvolvimento.
+Este projeto combina tecnologias de ponta do ecossistema Web2 e Web3 para entregar uma experiência de usuário fluida e uma lógica de negócios descentralizada.
 
-### **Pré-requisitos**
+| Camada       | Tecnologia                                                              | Propósito                                             |
+| :----------- | :---------------------------------------------------------------------- | :---------------------------------------------------- |
+| **Frontend** | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white ) ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white ) ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white ) | Interface de usuário reativa, responsiva e otimizada. |
+| **Blockchain** | ![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white ) ![Hardhat](https://img.shields.io/badge/-Hardhat-fff100?logo=hardhat&logoColor=black ) ![Ethers.js](https://img.shields.io/badge/-Ethers.js-2C56F6 ) | Smart Contracts para staking, recompensas e governança. |
+| **Infra/Deploy** | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white ) ![Chiliz Chain](https://img.shields.io/badge/-Chiliz_Chain-red ) | Hospedagem de alta performance e execução na blockchain. |
 
--   Node.js (v18 ou superior)
--   npm ou yarn
+---
 
-### **Instalação e Execução**
+##  Como Executar o Projeto Localmente
 
-1.  **Clone o repositório:**
+Para executar o protótipo de frontend em sua máquina local, siga os passos abaixo.
+
+1.  **Pré-requisitos:**
+    *   [Node.js](https://nodejs.org/en/ ) (versão 18.x ou superior)
+    *   [Git](https://git-scm.com/ )
+
+2.  **Clone o repositório:**
     ```bash
     git clone https://github.com/DGuedz/TorceHolder.git
     cd TorceHolder
     ```
 
-2.  **Instale as dependências do projeto:**
+3.  **Instale as dependências:**
     ```bash
     npm install
     ```
 
-3.  **Inicie o servidor de desenvolvimento:**
+4.  **Inicie o servidor de desenvolvimento:**
     ```bash
-    npm start
+    npm run dev
     ```
 
-4.  A aplicação estará disponível em **[http://localhost:3000](http://localhost:3000 )**.
+5.  **Acesse a aplicação:**
+    Abra seu navegador e acesse `http://localhost:3000`.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🗺️ Roadmap de Desenvolvimento
 
-A estrutura de pastas foi organizada para promover a modularidade, embora, para a agilidade do hackathon, os componentes tenham sido mantidos em um único arquivo principal (`src/App.js`).
+O projeto segue um roadmap claro para evoluir de um protótipo para um dApp totalmente funcional.
 
-TorceHolder/
-├── public/               # Arquivos estáticos, incluindo index.html
-├── src/
-│   ├── components/       # (Estrutura preparada para futura refatoração)
-│   ├── hooks/            # (Estrutura preparada para futura refatoração)
-│   ├── screens/          # (Estrutura preparada para futura refatoração)
-│   ├── App.js            # Componente raiz com toda a lógica e UI do protótipo
-│   ├── index.css         # Estilos globais e diretivas do Tailwind CSS
-│   └── index.js          # Ponto de entrada da aplicação React
-├── .gitignore            # Arquivos ignorados pelo Git
-├── package.json          # Dependências e scripts
-└── README.md             # Esta documentação
-Plain Text
+- [x] **Fase 1: Prototipação e UI/UX** - Design e desenvolvimento da interface do usuário.
+- [ ] **Fase 2: Desenvolvimento dos Smart Contracts** - Codificação dos contratos de Staking e Recompensas em Solidity.
+- [ ] **Fase 3: Testes e Segurança** - Implementação de testes unitários e de integração; auditoria de segurança.
+- [ ] **Fase 4: Deploy e Integração** - Implantação dos contratos na Chiliz Chain (Testnet ) e conexão com o frontend.
+- [ ] **Fase 5: Lançamento (Mainnet)** - Implantação na rede principal da Chiliz.
 
 ---
 
-## Próximos Passos
+## 📄 Licença
 
-Este protótipo estabelece uma base sólida. Os próximos passos para transformar o TorceHolder em um produto de produção seriam:
+Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-1.  **Desenvolvimento dos Smart Contracts:** Escrever, testar e auditar os contratos inteligentes na Chiliz Chain para as funcionalidades de stake e rewards.
-2.  **Integração Web3 Real:** Substituir a lógica simulada por chamadas reais aos contratos utilizando Ethers.js.
-3.  **Backend de Apoio:** Construir um serviço de backend para gerenciar metadados de benefícios e dados de usuários que não precisam estar on-chain.
-4.  **Lançamento Beta:** Conduzir um lançamento fechado com um grupo de torcedores para coletar feedback e refinar a experiência.
+<div align="center">
+  <small>Desenvolvido por DGuedz Black Mindz para o SPFC Hackathon.</small>
+</div>
