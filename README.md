@@ -25,12 +25,12 @@ A plataforma visa fortalecer a comunidade, aumentar a demanda pelo token e criar
 *   **Onboarding Web3:** Fluxo completo de autenticação simulada via conexão de carteira digital.
 *   **Dashboard do Torcedor:** Painel de controle para visualização de saldo de `$SPFC`, pontos acumulados, tier de fidelidade e streak de engajamento.
 *   **Cofre de Staking (Staking Vault):**
-    *   Depósito de tokens `$SPFC` em períodos de bloqueio flexíveis (30, 90, 180, 365 dias).
-    *   Sistema de **APY (Rendimento Anual Percentual)** progressivo que incentiva o compromisso de longo prazo.
-    *   Calculadora de recompensas em tempo real para prever os ganhos.
+      Depósito de tokens `$SPFC` em períodos de bloqueio flexíveis (30, 90, 180, 365 dias).
+      Sistema de **APY (Rendimento Anual Percentual)** progressivo que incentiva o compromisso de longo prazo.
+      Calculadora de recompensas em tempo real para prever os ganhos.
 *   **Marketplace de Benefícios:**
-    *   Catálogo de recompensas resgatáveis com os pontos acumulados.
-    *   Exemplos: Descontos no programa Sócio Torcedor, compra de ingressos, vouchers para a loja oficial e acesso a experiências VIP.
+      Catálogo de recompensas resgatáveis com os pontos acumulados.
+      Exemplos: Descontos no programa Sócio Torcedor, compra de ingressos, vouchers para a loja oficial e acesso a experiências VIP.
 
 ---
 
