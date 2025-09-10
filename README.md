@@ -5,8 +5,8 @@
 
  <!-- Badges -->
 <p>
-  <img src="https://img.shields.io/github/last-commit/DGuedz/TorceHolder?style=for-the-badge&logo=github&color=red" alt="Last Commit">
-  <img src="https://img.shields.io/github/languages/top/DGuedz/TorceHolder?style=for-the-badge&logo=javascript&color=yellow" alt="Top Language">
+ <img src="https://img.shields.io/github/last-commit/DGuedz/TorceHolder?style=for-the-badge&logo=github&color=red" alt="Last Commit">
+<img src="https://img.shields.io/github/languages/top/DGuedz/TorceHolder?style=for-the-badge&logo=javascript&color=yellow" alt="Top Language">
   <img src="https://img.shields.io/badge/Chiliz_Chain-EVM_Compatible-red?style=for-the-badge&logo=ethereum" alt="Chiliz Chain">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
